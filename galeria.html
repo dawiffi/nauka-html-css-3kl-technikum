@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Strona responsywna</title>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <style>
+*{
+      
+      margin: 0px;
+      padding: 0px;
+    }
+    section{
+      overflow: hidden;
+    }
+    #ramka{
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+      max-width: 1000px;
+    }
+    #naglowek{
+      background-color: #0060D0;
+      font-size: 20pt;
+      color: #FFFFFF;
+      font-family: Arial;
+      font-style: italic;
+      text-align:center;
+      font-weight: bold;
+      }
+    #stopka{
+      background-color: #00E0FF;
+      font-size: 14pt;
+      color: #FFFFFF;
+      font-family:Arial;
+      font-style:Italic;
+      clear:both;
+    }
+    .kolumny{
+      color: #FFFFFF;
+      margin-top: 10px;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 10px;
+      background-color: #00E0FF;
+    }
+    #kol1{
+      float: left;
+      width: 20%;
+    }
+    #kol2{
+      padding: 25px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width:100%;
+      background-color: #000080;
+      border: 1px solid #000080;      
+    }
+    li a{
+      display: block;
+      color: #fff;
+      padding: 8px 16px;
+      text-decoration:none;
+    }
+    li{
+      text-align: center;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    li a.active{
+      background-color: #4caf50;
+      color:white;
+    }
+    li a:hover:not(.active){
+      background-color: #f1f1f1;
+      color: black;
+    }
+    @media only screen and (max-width:620px){
+      #kol1{
+        width:100%;
+      } 
+    } 
+    body {
+    background-color: #000000}
+
+    .circle
+    {
+    border-radius: 25%;}
+    .sephia{
+    filter: sepia(75%);
+}
+    .fotki
+    {
+    border-style: groove;
+ border-width: 12px;
+ border-color: #0000ff
+}
+
+   .galeria
+{ display:block;
+margin-left: auto;
+margin-right: auto;
+}
+
+ 
+
+
+
+</style>
+  </head>
+  <body>
+        <div id="ramka">
+<header id="naglowek">
+<a href="index.html"><img id="logo" src="img/logo.png" style="border: 0" width="200" height="200" alt="Logo"> </a>
+<a href="index.html"><img src="img/baner2.png" style="border: 0" width="600" height="200" alt="Baner"></a>
+</header>
+
+             <section class="kolumny" id="kol1">
+                      <h3>Menu</h3>
+                      <ul>
+                        <li><a href="index.html">Start</a></li>
+                        <li><a href="serwis.html">Artykuły</a></li>
+                        <li><a href="uslugi.html">Kontakt</a></li>
+                        <li><a href="atrakcje.html">Atrakcje</a></li>
+                        <li><a href="konkurs.html">Konkurs</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="kursy.html">Kursy</a></li>
+                        <li><a href="pogoda.html">Pogoda</a></li>
+                        <li><a href="dokumenty.html">Dokumenty</a></li>
+                        <li><a href="zadanie1lekcja/index.html">zadanie1</a></li> 
+                        <li><a href="wilki/index.html">wilki</a></li>
+                      </ul>
+             </section>
+             <section class="kolumny" id="kol2"> 
+<h1>Galeria</h1>
+
+             <img class="circle galeria" src="img/galeria1.jpg" style="border: 0" width="650" height="450" alt="Magiczne Fontanny na Wzgórzu Montjuïc">
+<p>Magiczne Fontanny na Wzgórzu Montjuïc</p>
+
+             <img class="circle galeria" src="img/galeria2.jpg" style="border: 0" width="650" height="450" alt="Castell de Montjuïc"> 
+<p>Castell de Montjuïc</p>   
+
+             <img class="sephia fotki galeria" src="img/galeria3.jpg" width="650" height="450" alt="Pomnik Krzysztofa Kolumba w pobliżu ulicy La Rambla">
+<p>Pomnik Krzysztofa Kolumba w pobliżu ulicy La Rambla</p>
+
+              <img class="sephia fotki galeria" src="img/galeria4.jpg" width="650" height="450" alt="Oceanarium w Barcelonie">
+<p>Oceanarium w Barcelonie (Costa Brava)</p>
+
+              
+
+             </section>
+             <footer id="stopka">Pracę wykonał Dawid Frontczak</footer>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Poprawny CSS!" />
+    </a>
+</p>
+       
+        </div>
+  </body>
+</html>

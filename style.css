@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+      margin: 0px;
+      padding: 0px;
+    }
+    section{
+      overflow: hidden;
+    }
+    #ramka{
+      margin-right: auto;
+      margin-left: auto;
+      min-width: 300px;
+      max-width: 1000px;
+    }
+div.tlobox {
+  background: url(img/kwiat.png) repeat;
+  border: 4px solid black;
+}
+
+div.przezroczystybox {
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.przezroczystybox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+    #naglowek{
+      background-color: #0060D0;
+      font-size: 20pt;
+      color: #000000;
+      font-family: Arial;
+      font-style: italic;
+      text-align:center;
+      font-weight: bold;
+      
+      }
+    #stopka{
+      background-color: #00E0FF;
+      font-size: 14pt;
+      color: blue;
+      font-family:Arial;
+      font-style:Italic;
+      clear:both;
+    }
+    img.zdjecieherb:hover
+{
+      transform: rotate(360deg);
+      transition-delay: 0s;
+      transition-duration: 1s;
+}
+    #zabytki
+{
+background-color: #00E0FF;
+border: none;}
+    .kolumny{
+      margin-top: 10px;
+      margin-right: 2%;
+      margin-bottom: 2%;
+      margin-left: 10px;
+      background-color: #00E0FF;
+    }
+    #kol1{
+      float: left;
+      width: 20%;
+    }
+    #kol2{
+      padding: 25px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width:100%;
+      background-color: #000080;
+      border: 1px solid #000080;      
+    }
+    li a{
+      display: block;
+      color: #fff;
+      padding: 8px 16px;
+      text-decoration:none;
+    }
+    li{
+      text-align: center;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    li a.active{
+      background-color: #4caf50;
+      color:white;
+    }
+    li a:hover:not(.active){
+      background-color: #f1f1f1;
+      color: black;
+    }
+    @media only screen and (max-width:620px){
+      #kol1{
+        width:100%;
+      } 
+    }

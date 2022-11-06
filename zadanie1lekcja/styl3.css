@@ -1,0 +1,65 @@
+ *{
+	 font-family: Garamond;
+	 margin: 0;
+ }
+ 
+ header{
+	 background-color: RosyBrown;
+	 color: white;
+	 text-align: center;
+	 padding: 10px;
+	 height: 40px;
+ }
+ 
+#formularz{
+	 background-color: DarkSalmon;
+	 text-align: center;
+	 padding: 40px;
+	 height: 250px;
+ }
+ 
+ #lewo{
+	 background-color: LightSalmon;
+	 height: 300px;
+	 width: 30%;
+	 float: left;
+ }
+ 
+ #srodek{
+	 background-color: LightSalmon;
+	 height: 300px;
+	 width: 40%;
+	 float: left;
+ }
+ 
+ #prawo{
+	 background-color: LightSalmon;
+	 height: 300px;
+	 width: 30%;
+	 float: left;
+ }
+ 
+ 
+ footer{
+	 background-color: RosyBrown;
+	 color: white;
+	 text-align: center;
+	 padding: 30px;
+	 height: 25px;
+	 clear: both;
+ }
+ 
+ ol{
+	 border: 2px solid rgb(205,92,92);
+	 font-size: 150%;
+	 list-style-position: inside;
+ }
+ 
+ 
+ 
+ 
+ #sarna{
+	 height: 300px;
+	 width: 600px;
+ }
+ 
